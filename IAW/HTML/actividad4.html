@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="Aprendizaje de html, junto a memes del lol y cosas varioas">
+    <meta name="keywords" content="HTML, CSS, lol, leagueoflegends, fyi, memes">
+    <meta name="author" content="shenhao zhou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera actividad</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <!-- el header es la cabecera y el nav seria un menu de navegacion que esta dentro del header-->
+    <header> 
+        <!-- el h1 seria como el titulo principal-->
+         
+         <center><h1>Esta es la primera activadad del repaso de HTML</h1> </center>
+        
+         <!--el hgroup sirve para agrupar, por ejemplo titulares h1, h2, h3...-->
+         <hgroup>
+            <h2>League of legends</h2> 
+            <h3>Adictivo +18</h3> 
+            <p>Un juego basura que te consumo como la droga</p> 
+            <button>Que evitar</button>
+        </hgroup>
+
+    
+        <nav>
+            <button>         
+                <ul>
+                    <li><a href="https://www.leagueoflegends.com/es-es/">No tocar por cuestion de salud</a></li>
+                    <li><a href="https://www.youtube.com/@KazaHighlights">KazaHighlights</a></li>
+                    <li><a href="https://www.op.gg/summoners/euw/shenhaozhouzhou-EUW">unas partidas?</a></li>
+                </ul>
+            </button>
+        </nav> 
+       
+    </header>
+        <!-- el main representa el contenido principal del body en el documento-->
+    <main>
+        <!-- el section es un cuadrado grande que dentro va articulos que se podria definir cuadrados de informacion que forman parte 
+     del section -->
+        <section>
+            <h2>Esto es una seccion</h2>
+
+            <article>
+                <!-- esto es un comentario, y respecto a lo de abajo, he añadido el br para indicar un salto de linea-->
+                <h3>campeones que juego</h3>
+                
+                    <ul>
+                        <li>Top
+                            <ol>
+                                <li>riven</li>
+                                <li>aatrox</li>
+                                <li>irelia</li>
+                            </ol>
+                        </li>
+                        <li>jgl
+                            <ol>
+                                <li>khazix</li>
+                                <li>viego</li>
+                                <li>lee sin</li>
+                            </ol>
+                        </li>
+                        <li>mid
+                            <ol>
+                                <li>yasuo</li>
+                                <li>ahri</li>
+                                <li>orianna</li>
+                            </ol>
+                        </li>
+                    </ul>
+
+            </article>
+            <hr> <!-- el hr es una linea horinzontal-->
+            <article>
+                <h3>esto es otra articulo de la seccion</h3>
+                <p>League of Legends (de siglas LoL) es un juego gratuito del género videojuego multijugador de arena de batalla en línea 
+                    (Multiplayer Online Battle Arena, MOBA en inglés) creado por la compañía Riot Games.</p>
+                <p>Qué es un espectro? Sino la sombra voraz de un hombre
+                        <br> Viego </p>
+            </article>
+            <article>
+                <h2>Yasuo La Espada sin Honor</h2>
+                <p>Cuando era niño, Yasuo se creía lo que los demás en su pueblo decían de él. <br>
+                    En los mejores días, su propia existencia era un error de juicio. <br>
+                    En los peores, era un error que nunca podría deshacerse. <br>
+                    Como en casi todo lo que duele, había algo de verdad en ello. <br>
+                    Su madre era una viuda que ya criaba a un hijo pequeño,
+                    cuando el hombre que sería el padre de Yasuo llegó a su vida como un viento otoño. <br>
+                    Y, al igual que esa época solitaria, se había ido otra vez antes de que el manto del invierno 
+                    jonio se estableciera sobre la pequeña familia.
+                </p>
+            </article>
+        </section>
+        <hr>
+        <!-- el aside seria como un texto alternativo que forma parte del main-->
+        <aside>
+            <h2>Esto seria contenido alterno </h2>
+            <p>Lucharé, fracasare pero rendirme es un privilegio que no tengo.</p>
+        
+        </aside>
+
+
+        <!--probando los distintos tipos de texto-->>
+        <strong>esto es un texto strong</strong>
+        <small>texto pequeño small</small> <br>
+        <cite>una cita en algo cite</cite> <br>
+        <code>define un codigo de computacion code</code> <br>
+        <del> texto eliminado del</del> <br>
+        <dfn> no se lo que es dfn</dfn>
+        <br>
+
+        <!-- este elemento se puede utilizar para marcar las medidas, 
+         siempre que esas medidas sean parte de una escala con valores mínimos y máximos.-->
+        <label for="html5">Nivel de inteo</label> 
+        <meter id="html5" value="2" min="0" max="10"></meter><br>
+
+        <label for="jglgap">jgl gap</label> 
+        <meter id="jglgap" value="99" min="0" max="100"></meter><br>
+
+        <!--vamos de toda la vida un subrayador-->
+        <ol> 
+            <li>
+                Un <mark>tag</mark> o etiqueta son un conjunto de palabras claves 
+                 <mark>que se encuentran asociadas a</mark> una entrada o post.
+            </li> 
+        </ol>
+        
+        <!-- define una hora, o fecha y hora, específica. El atributo datetime de este 
+         elemento se usa para traducir la hora a un formato legible por máquina para que
+         los navegadores puedan ofrecer agregar recordatorios de fechas a través del calendario del usuario,
+         y los motores de búsqueda puedan producir resultados de búsqueda más inteligentes. 
+         TBH entiendo el concepto pero a la vez no xD-->
+
+        <blockquote> <p>La <time datetime="1870-11-02T00:01">noche de difuntos</time> 
+            me despertó a no sé qué hora el doble de las campanas;
+             su tañido monótono y eterno me trajo a las mientes esta tradición que oí <time datetime="1870-11-05T12:33">hace poco en Soria</time> .</p>
+        </blockquote><br>
+
+        <!--<meter> suele usarse para describir algo que ya se ha medido,
+             mientras que <progress> permite marcar un valor que está en proceso de cambio-->
+
+        <label for="tilt">Nivel de tilt</label> 
+        <progress id="tilt" value="45" min="0" max="100"></progress><br>
+
+
+    </main>
+    <!-- el footer es pie de pagina-->
+    <footer> 
+        <h2>Pie de página</h2> 
+        <h3>una pagina creado por shenhao zhou</h3>
+        <p>probando el pie de pagina sin css</p>
+    </footer>
+
+</body>
+</html>
