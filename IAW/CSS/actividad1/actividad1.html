@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de CSS</title>
+    <!-- Aquí puedes enlazar tu archivo CSS -->
+    <link rel="stylesheet" href="./1.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi sitio de práctica CSS</h1>
+        <p>Explora la variedad de elementos HTML para aplicar estilos CSS.</p>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Sección 1</a></li>
+                <li><a href="#seccion2">Sección 2</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección 1 -->
+        <section class="sectiongirado">
+            <h2>Sección 1: Texto y Listas</h2>
+            <p>Este es un párrafo de ejemplo. Puedes cambiar el color, tamaño, alineación y estilo del texto.</p>
+            <ul>
+                <li>Elemento de lista 1</li>
+                <li>Elemento de lista 2</li>
+                <li>Elemento de lista 3</li>
+            </ul>
+            <ol>
+                <li>Primer elemento ordenado</li>
+                <li>Segundo elemento ordenado</li>
+                <li>Tercer elemento ordenado</li>
+            </ol>
+        </section>
+
+        <!-- Sección 2 -->
+        <section >
+            <h2>Sección 2: Imágenes y Enlaces</h2>
+            <p>Aquí puedes practicar cómo dar estilo a imágenes y enlaces:</p>
+            <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends" alt="Imagen de ejemplo" class="ejemplo-imagen">
+            <p>Visita <a href="https://www.openai.com" target="_blank">OpenAI</a> para más información.</p>
+        </section>
+
+        <!-- Tabla -->
+        <section id="tabla">
+            <h2>Tabla de Ejemplo</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan</td>
+                        <td>25</td>
+                        <td>Ciudad A</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>30</td>
+                        <td>Ciudad B</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro</td>
+                        <td>22</td>
+                        <td>Ciudad C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Formulario -->
+        <section id="formulario">
+            <h2>Formulario de Ejemplo</h2>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com">
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Sitio de Práctica CSS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

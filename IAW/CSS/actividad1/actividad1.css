@@ -1,0 +1,23 @@
+h1 {color: blueviolet;}
+
+li ~ p {color: red;}
+ 
+p::first-line {
+    color: blue;
+}
+
+p:hover {
+    color: darkorchid;
+}
+
+.sectiongirado { width: 70%;
+    margin: 40px auto;
+    padding: 1em;
+    position: relative;
+    transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg); 
+}
+    
