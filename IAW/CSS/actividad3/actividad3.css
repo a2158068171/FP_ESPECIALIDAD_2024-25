@@ -1,0 +1,76 @@
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: purple;
+    padding:40px;
+    width:50%;
+    background-color:beige;
+    box-shadow: 20px 20px 50px 15px #ccc;
+}
+
+ /* aqui hay varios formas de poner el color rgb, hsl donde se modifica 3 valores para dar color, consultar apuntes
+ para mas informacion si queremos encontrar un color exacto. si añadimos un cuarto valor, nos daria la transparencia */
+.cajaredonda{
+    background-color:rgb(99, 60, 172);;
+    color:rgb(100%, 70%, 25%);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px; 
+    margin: 10px 0;
+}
+.cajaredonda1{
+    background-color:hsl(93, 82%, 44%);
+    color:hsl(120, 40%, 76%);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px 40px; 
+    margin: 10px 0;
+}
+.cajaredonda2{
+    background-color: rgb(173, 255, 47, 50%);
+    color: hsl(30, 59%, 53%, 0.5);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 30px 50px; 
+    margin: 10px 0;
+}
+.cajaredonda3{
+    background-color: indianred;
+    color: purple;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px 30px 70px 100px; 
+    margin: 10px 0;
+}
+
+
+.textosombra {
+    font-size: 15px;
+    color: violet;
+    /* Efecto de sombra de texto */
+    text-shadow: 2px 2px 2px black;
+}
+.textosombra1 {
+    font-size: 20px;
+    color: aqua;
+    text-shadow: 10px 1px 1px black;
+}
+.textosombra2 {
+    font-size: 30px;
+    color: violet;
+    text-shadow: 2px 8px 1px red;
+}
