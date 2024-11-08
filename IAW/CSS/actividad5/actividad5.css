@@ -1,0 +1,33 @@
+@font-face { font-family: 'open_sansregular';
+     src: url('fuentes/OpenSans-Regular.eot');
+     src: url('fuentes/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), 
+     url('fuentes/OpenSans-Regular.woff2') format('woff2'), 
+     url('fuentes/OpenSans-Regular.woff') format('woff'), 
+     url('fuentes/OpenSans-Regular.ttf') format('truetype'), 
+     url('fuentes/OpenSans-Regular.svg#open_sansregular') format('svg'); 
+     font-weight: normal; font-style: normal; }
+
+
+
+h1 { font-family: 'open_sansregular';font-size:50px;
+    color: plum;
+}
+h2 { font-family: 'Times New Roman', Times, serif;
+    color: pink;
+}
+     
+h3 {font-family: Arial, Helvetica, sans-serif;}
+
+.italica{font-style: italic;
+}
+
+.italicapeso{font-style: italic;
+    font-weight: 900;
+
+}
+.japon{font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+
