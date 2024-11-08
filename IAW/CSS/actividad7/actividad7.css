@@ -1,0 +1,20 @@
+a.boton { padding: 5px 10px; 
+    background: rgb(218, 133, 6); 
+    transition-property: background; 
+    transition-duration: 0.3s; 
+    timing-function: ease; 
+    
+} 
+a.boton1{
+    padding: 5px 10px;
+    color:#fc1b1b;
+    text-decoration:none; 
+    background: rgb(200, 210, 248);
+    color:#0AF; 
+    transition: background 0.7s ease, color 0.7s ease;
+}
+
+a.boton:hover { background: rgb(91, 0, 109); 
+}   
+a.boton1:hover { background: rgb(0, 0, 0); 
+}   
