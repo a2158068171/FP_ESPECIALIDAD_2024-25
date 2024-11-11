@@ -1,0 +1,26 @@
+/* traslada a determinados px en el eje x y  */
+#traslate{transform: translate(100px,40px);} 
+/* hace una transformacion que aumenta o disminuye dependiendode de la escala*/
+#scale{transform: scale(200%)} 
+/* hace girar al elemenento dependiendo de los deg */
+#rotate{transform: rotate(30deg) } 
+/* como si fuera un romboide , que gira los lados*/
+#skew{transform: skew(-30deg, 0)}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    width: 150px;
+    height: 50px;
+    background-color: #c017eb;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
