@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ejercicio 2 php</title>
+    <title>ejercicio 3 php</title>
 </head>
 <body>
     <p>
