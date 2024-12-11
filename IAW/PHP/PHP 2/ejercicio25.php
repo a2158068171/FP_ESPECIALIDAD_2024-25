@@ -8,9 +8,8 @@
 <body>
     <?php
         $usuario = 100000;
-        $interes = 20;
-        $final = $usuario*()
-
+        $final = $usuario*1.2;
+        echo "tengo 100k y el banco nacional aplicara un 20% de intereses y daria ".$final;
     ?>
 </body>
 </html>
