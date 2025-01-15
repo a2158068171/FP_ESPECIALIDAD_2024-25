@@ -6,16 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-<form action="ejercicio12.php" method="post">
+    <form action="ejercicio18.php" method="post">
             <fieldset>
-                <legend>Realizacion de la suma de los 100 siguiente numeros dado</legend>
+                <legend> imprime todos los números impares menores que él</legend>
 
-                Numero 
-                <input type="number" name="num1" />
+                numero 
+                <input type="text" name="num1" />
                 <br/>
                 <br/>
                 <input type="submit" value="enviar" name="enviar" />
             </fieldset>
-        </form>
+    
+    </form>
 </body>
 </html>

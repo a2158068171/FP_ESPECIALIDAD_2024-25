@@ -6,9 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="ejercicio16.php" method="post">
+    <form action="ejercicio17.php" method="post">
             <fieldset>
-                <legend>Indicar de numero mas pequeño y grande</legend>
+                <legend> si el primero es negativo, debe
+                imprimir el producto de los tres y si no lo es, imprimirá la suma</legend>
 
                 numero 1
                 <input type="text" name="num1" />

@@ -6,16 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-<form action="ejercicio12.php" method="post">
+    <form action="ejercicio20.php" method="post">
             <fieldset>
-                <legend>Realizacion de la suma de los 100 siguiente numeros dado</legend>
+                <legend>Formula de euclides para sacar mcd </legend>
 
-                Numero 
-                <input type="number" name="num1" />
+                numero 1
+                <input type="text" name="num1" />
+                <br/>
+                <br/>                
+                numero 2
+                <input type="text" name="num2" />
                 <br/>
                 <br/>
                 <input type="submit" value="enviar" name="enviar" />
             </fieldset>
-        </form>
+    
+    </form>
 </body>
 </html>

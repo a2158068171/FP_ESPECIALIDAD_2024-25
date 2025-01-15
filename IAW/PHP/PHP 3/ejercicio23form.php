@@ -6,16 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-<form action="ejercicio12.php" method="post">
+    <form action="ejercicio23.php" method="post">
             <fieldset>
-                <legend>Realizacion de la suma de los 100 siguiente numeros dado</legend>
+                <legend>calcudadora de Fahrenheit a Celsius</legend>
 
-                Numero 
-                <input type="number" name="num1" />
+                Fahrenheit
+                <input type="text" name="f" />
                 <br/>
-                <br/>
+                <br/>                
+
                 <input type="submit" value="enviar" name="enviar" />
             </fieldset>
-        </form>
+    
+    </form>
 </body>
 </html>

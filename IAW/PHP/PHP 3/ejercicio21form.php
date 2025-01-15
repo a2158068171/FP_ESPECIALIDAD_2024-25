@@ -6,22 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="ejercicio16.php" method="post">
+    <form action="ejercicio21.php" method="post">
             <fieldset>
-                <legend>Indicar de numero mas pequeño y grande</legend>
+                <legend>Formula de ecuacion de segundo grado </legend>
 
-                numero 1
-                <input type="text" name="num1" />
+                coeficiente a
+                <input type="text" name="a" />
+                <br/>
+                <br/>                
+                coeficiente b
+                <input type="text" name="b" />
                 <br/>
                 <br/>
-                numero 2
-                <input type="text" name="num2">
+                coeficiente c
+                <input type="text" name="c" />
                 <br/>
                 <br/>
-                numero 3
-                <input type="text" name="num3">
-                <br>
-                <br> 
                 <input type="submit" value="enviar" name="enviar" />
             </fieldset>
     

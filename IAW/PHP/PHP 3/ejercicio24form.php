@@ -6,16 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-<form action="ejercicio12.php" method="post">
+    <form action="ejercicio24.php" method="post">
             <fieldset>
-                <legend>Realizacion de la suma de los 100 siguiente numeros dado</legend>
+                <legend>Prueba de switch</legend>
 
-                Numero 
-                <input type="number" name="num1" />
+                indica un numero
+                <input type="text" name="num1" />
                 <br/>
-                <br/>
+                <br/>                
+
                 <input type="submit" value="enviar" name="enviar" />
             </fieldset>
-        </form>
+    
+    </form>
 </body>
 </html>

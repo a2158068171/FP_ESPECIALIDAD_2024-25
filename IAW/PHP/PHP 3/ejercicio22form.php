@@ -6,16 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-<form action="ejercicio12.php" method="post">
+    <form action="ejercicio22.php" method="post">
             <fieldset>
-                <legend>Realizacion de la suma de los 100 siguiente numeros dado</legend>
+                <legend>factorial de un numero </legend>
 
-                Numero 
-                <input type="number" name="num1" />
+                numero para factorial
+                <input type="text" name="n" />
                 <br/>
-                <br/>
+                <br/>                
+
                 <input type="submit" value="enviar" name="enviar" />
             </fieldset>
-        </form>
+    
+    </form>
 </body>
 </html>
