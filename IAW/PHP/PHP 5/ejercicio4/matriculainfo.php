@@ -1,21 +1,19 @@
 <?php
 include_once 'funciones.php';
 
-$resultado = asignaturas($conexion);
-
-
+$resultado = matricular_info($conexion);
 
     if(mysqli_num_rows($resultado) > 0) 
         {               
-            echo "<h2>Lista de asignaturas</h2> <br>";
+            echo "<h2>matriculas </h2> <br>";
             while($array = mysqli_fetch_assoc($resultado))
             {
 
                 echo "<table border='1'>";
                 echo "<tr>";
-                echo "<th>codigo ".$array['codigo']."</th>"; 
-                echo "<th>nombre ".$array['nombre']."</th>";
-                echo "<th>creditos".$array['creditos']."</th>";
+                echo "<th>id:   ".$array['id']."</th>"; 
+                echo "<th>dni: ".$array['dni_alumno']."</th>";
+                echo "<th>codigo asignatura:".$array['codigo_asignatura']."</th>";
                 echo "</tr>";
                 echo "</table>";
             }

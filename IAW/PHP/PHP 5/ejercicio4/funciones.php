@@ -17,9 +17,9 @@ function matricular_select($conexion, $dni, $asignaturas )
     {
         $unico = "SELECT dni_alumno from matriculas where dni_alumno='$dni' and codigo_asignatura='$codigo'";
         $consulta = mysqli_query($conexion, $unico);
-        return $consulta;
+       
     }
-
+    return $consulta;
 }
 
 function matricular_insert($conexion, $dni, $asignaturas)
@@ -28,8 +28,9 @@ function matricular_insert($conexion, $dni, $asignaturas)
     {
         $matriculacion = "INSERT IGNORE INTO matriculas (dni_alumno, codigo_asignatura) VALUES ('$dni', $codigo)";
         $consulta2 = mysqli_query($conexion, $matriculacion);
-        return $consulta2;
+       
     }
+    return $consulta2;
 }
 
 
@@ -44,6 +45,15 @@ function alumnos($conexion)
     {
         $alumnos = "SELECT * from alumnos";
         $resultado = mysqli_query($conexion, $alumnos);
+        return $resultado;
+    }
+
+
+
+function matricular_info($conexion)
+    {
+        $matricula = "SELECT * from matriculas";
+        $resultado = mysqli_query($conexion, $matricula);
         return $resultado;
     }
 
