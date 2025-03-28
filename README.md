@@ -1,7 +1,7 @@
 # FP_ESPECIALIDAD_2024-25
 Esto es un repositorio para el curso de ASIR 2º
 
-📚 ## Asignaturas
+## 📚 Asignaturas
 
 | Asignatura | Nombre Completo                            |
 |------------|---------------------------------------------|
